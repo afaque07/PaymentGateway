@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Baloo Bhai 2", cursive; */
+    font-family: Georgia;
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  #contacts {
+    height: 80px;
+    width: 100vw;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contacts a {
+    color: black;
+  }
+  #contacts i {
+    padding: 10px;
+    margin: 20px;
+  }
+  #contacts i:hover {
+    transition-delay: 0.05s;
+    font-size: 70px;
+    margin: 11px;
+    padding: 10px;
+  }
+  
+  .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #000;
+    background: transparent;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    border: solid black 2px;
+    text-decoration: mediumvioletred;
+  }
+  
+  .btn:hover {
+    background: blueviolet;
+    color: black;
+    border: solid blueviolet;
+    text-decoration: none;
+  }
+  
+  #donate-bg {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 630px;
+    justify-content: center;
+    margin: 6vh 4vw 10vh 64vw;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+  }
+  footer {
+    background-color: blueviolet;
+    height: 30px;
+    text-align: center;
+  }
+  footer p {
+    padding: 5px;
+  }
+  .last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  #logo {
+    margin-left: 10px;
+    background: blanchedalmond;
+    padding: 0px 10px;
+  }
+  
+  section div button {
+    width: 150px;
+    margin: 50px auto;
+  }
+  section {
+    width: 100%;
+    overflow: hidden;
+    height: 1000px;
+    background-image: url("image/school-children.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  #navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 80px;
+  }
+  
+  #navbar ul {
+    display: flex;
+  }
+  #nav-list {
+    right: 6vw;
+    position: absolute;
+  }
+  
+  #navbar ul li {
+    margin: 10px 15px;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    padding: 3px 10px;
+    border: solid slateblue 2px;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: blueviolet;
+    color: black;
+    border: solid blueviolet 4px;
+    border-radius: 20px;
+  }
+  
+  .top-nav {
+    background-color: blueviolet;
+  }
+  .top-nav button {
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 20px;
+    position: relative;
+    left: 88.5%;
+  }
+  .top-nav button:hover {
+    width: 145px;
+    left: 88%;
+  }
